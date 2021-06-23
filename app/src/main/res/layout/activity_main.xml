@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CD2196F3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text_view_main"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/welcome_to_mygym"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_street"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_baseline_nature_24"
+                    android:id="@+id/street"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@id/street"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/for_all_calisthenics_lovers"
+                    tools:ignore="RtlCompat" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_fitness"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/ic_baseline_fitness_center_24"
+                    android:id="@+id/gym"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@id/gym"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/for_all_gym_lovers"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_stopwatch"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:id="@+id/timer"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/ic_baseline_timer_24" />
+
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@id/timer"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/use_our_stopwatch"
+                    tools:ignore="RtlCompat" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_membership"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/ikona"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@id/ikona"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/click_here_if_you_want_to_become_a_member_of_our_gym"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_quote"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/navodi"
+                    android:src="@drawable/ic_baseline_format_blue"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_toEndOf="@id/navodi"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/motivate_yourself_with_greatest_quotes_of_all_time"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

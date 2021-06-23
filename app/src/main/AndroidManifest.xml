@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mygym">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyGym">
+        <activity
+            android:name=".Motivation"
+            android:theme="@style/Theme.MyGym3" />
+        <activity
+            android:name=".SummaryActivity"
+            android:theme="@style/Theme.MyGym3" />
+        <activity
+            android:name=".Membership"
+            android:theme="@style/Theme.MyGym3" />
+        <activity
+            android:name=".Stopwatch"
+            android:theme="@style/Theme.MyGym2" />
+        <activity android:name=".GymGroups.UvodGym" />
+        <activity android:name=".CalisthenicsGroups.UvodCalisthenics" />
+        <activity android:name=".GymGroups.GymBack" />
+        <activity android:name=".GymGroups.GymShoulders" />
+        <activity android:name=".GymGroups.GymLegs" />
+        <activity android:name=".GymGroups.GymArms" />
+        <activity android:name=".GymGroups.GymAbs" />
+        <activity android:name=".CalisthenicsGroups.CalisthenicsLegs" />
+        <activity android:name=".CalisthenicsGroups.CalisthenicsBack" />
+        <activity android:name=".CalisthenicsGroups.CalisthenicsChest" />
+        <activity android:name=".CalisthenicsGroups.CalisthenicsAbs" />
+        <activity
+            android:name=".Splash_Screen"
+            android:theme="@style/Theme.MyGym2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

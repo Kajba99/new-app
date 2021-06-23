@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/img_logo"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splash1"
+        android:layout_width="150dp"
+        android:layout_height="180dp"/>
+
+    <TextView
+        android:id="@+id/text_1"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#CD2196F3"
+        android:layout_marginTop="10dp"
+        android:text="@string/fitness_app"
+        android:layout_below="@id/img_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminate="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:indeterminateTint="#CD2196F3"
+        android:layout_marginTop="20dp"
+        android:id="@+id/progress_bar"
+        android:layout_below="@id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</RelativeLayout>

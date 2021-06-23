@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="glavni_tekst" type="id" />
+    <item name="prvi" type="id" />
+    <item name="drugi" type="id" />
+    <item name="treci" type="id" />
+    <item name="cetvrti" type="id" />
+    <item name="peti" type="id" />
+    <item name="sesti" type="id" />
+    <item name="sedmi" type="id" />
+    <item name="osmi" type="id" />
+    <item name="deveti" type="id" />
+    <item name="deseti" type="id" />
+</resources>
